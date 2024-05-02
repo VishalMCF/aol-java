@@ -15,6 +15,6 @@ public class LogService {
     }
 
     private Log openLog(){
-
+        return null;
     }
 }
