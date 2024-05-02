@@ -1,7 +1,6 @@
-package com.gatomalvado.dto;
+package com.gatomalvado.model;
 
 import com.gatomalvado.common.DefaultLogOptions;
-import com.gatomalvado.common.ErrorMessage;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
