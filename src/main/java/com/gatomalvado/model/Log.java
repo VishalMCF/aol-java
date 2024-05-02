@@ -1,5 +1,6 @@
 package com.gatomalvado.model;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Log {
@@ -11,4 +12,11 @@ public class Log {
     private boolean closed;
     private boolean corrupt;
 
+
+    // methods summary which needs to be implemented
+    public Log(String path, Options options){
+        this.path = path;
+        this.logOptions = options;
+        this.segmentsMap = new HashMap<>();
+    }
 }
